@@ -25,7 +25,7 @@ public class RenameMeDTO {
     
     public static List<RenameMeDTO> getDtos(List<RenameMe> rms){
         List<RenameMeDTO> rmdtos = new ArrayList();
-        rms.forEach(rm->rmdtos.add(new RenameMeDTO(rm)));
+        rms.forEach(rm-> rmdtos.add(new RenameMeDTO(rm)));
         return rmdtos;
     }
 
